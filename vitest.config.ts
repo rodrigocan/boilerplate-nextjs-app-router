@@ -13,7 +13,7 @@ export default defineConfig({
       enabled: true,
       include: ['src/**/*.ts(x)?']
     },
-    setupFiles: ['<rootDir>/.vitest/setup.ts'],
+    // setupFiles: ['<rootDir>/.vitest/setup.ts'],
     dir: '<rootDir>/src/'
   }
 })
