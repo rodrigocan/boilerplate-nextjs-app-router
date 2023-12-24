@@ -10,6 +10,9 @@
     "plugin:react/recommended",
     "prettier"
   ],
+  "ignorePatterns": [
+    "vitest.config.ts"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": "latest",
