@@ -1,7 +1,9 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`<Main /> > should render the heading 1`] = `
-<main>
+<main
+  class="bg-main text-white w-full h-full p-12 text-center flex flex-col items-center justify-center"
+>
   <h1>
     React Avançado
   </h1>
