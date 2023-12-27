@@ -10,9 +10,9 @@ export default defineConfig({
     include: ['**/test.ts?(x)'],
     setupFiles: './tests/setup.ts',
     coverage: {
-      provider: 'v8'
-      // include: ['src/**/*.ts(x)?'] // todo: fix coverage paths
-      // exclude: ['src/app/**']
+      provider: 'v8',
+      include: ['src/**/*.tsx'], // todo: fix coverage paths
+      exclude: ['src/app/**']
     }
   }
 })
